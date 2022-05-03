@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is for Form</h2>
+    <!-- backend.php not available -->
+    <form action="backend.php"> 
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myrole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            <label for="checkbox">Are you eligible?</label>
+            <input type="checkbox" name="myeligiblity" id="checkbox" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="mygender" > Female <input type="radio" name="mygender" > Other <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br> <textarea name="mytextarea" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="mycar" id="car">
+                <option value="ind" selected>Indigo</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
